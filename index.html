@@ -1,27 +1,286 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap practice</title>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <style>
+        .icon {
+            margin-left: 85px;
+            border-radius: 50%;
+            border: 0.5px white solid;
+            box-shadow: 0px 0px 5px 2px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>I'm creating this repositry for bootstrap practice</h1>
-    
-    <div>
-        <h2>Lecture - 1</h2>
-        <a href="">
-        <button>Go to lec-1 practice</button></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <div class="web-container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-md-5 ps-md-5 d-flex align-items-center">
+                    <img src="./rtc-clone/image/rtc-logo.png" class="logo" style="height: 36px;">
+                    <span class="ms-2">Road To Code</span>
+                </a>
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto  mb-lg-0">
+                        <li class="nav-item ms-5">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ms-5 ">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="#">Internship</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="#">Campus ambassador</a>
+                        </li>
+                        <li class="nav-item dropdown ms-5">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                HomeWork 📔
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Homework-1</a></li>
+                                <li><a class="dropdown-item" href="#">Homework-2</a></li>
+                                <li><a class="dropdown-item" href="#">Homework-3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-5 profile ">
+                            <a href="#" class="nav-link "> <img src="./rtc-clone/image/profile.img" class="profile ms-3"
+                                    style="height: 36px; border-radius:50%"><span class="ms-2">Punam Rajput</span></a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="container-head">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./rtc-clone/image/header-img.png" class="img-fluid header-img">
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="container-head-txt mb-5">
+                            <h2 class="fw-nonefs-1">Quality courses at affordable pricing, trusted by 1500+ students.
+                            </h2>
+
+                            <p class="text-muted fs-4">Our aim is to provide affordable computer science education for
+                                everyone.</p>
+
+                            <button type="button" class="btn btn-warning">Explore Cources</button>
+                            <button type="button" class="btn btn-dark ms-4">Call Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-features">
+                <h2 class="text-center fs-1">What makes RTC courses special?</h2>
+                <br><br><br>
+                <div class="row">
+                    <div class="col-6">
+                        <img src="./rtc-clone/icons/meet-icon.svg" class="icon">
+                        <h2>Live Interactive Classes</h2>
+                        <p>Learning made easy with live interactive classes.</p>
+                    </div>
+
+
+                    <div class="col-6">
+                        <img src="./rtc-clone/icons/structured-learning.svg" class="icon">
+                        <h2>Structured Learning</h2>
+                        <p>Each course is designed using instructional methodologies</p>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-6">
+                        <img src="./rtc-clone/icons/doubt-session.svg" class="icon">
+                        <h2>1:1 Doubt Sessions</h2>
+                        <p>You can have doubt sessions to solve your doubts or any general queries.</p>
+                    </div>
+
+
+                    <div class="col-6">
+                        <img src="./rtc-clone/icons/per-mentorship.svg" class="icon">
+                        <h2>Personal Mentorship</h2>
+                        <p>Each students each is provided with a personal mentor to enhace the learning experience.</p>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-6">
+                        <img src="./rtc-clone/icons/recorded-classes.svg" class="icon">
+                        <h2>Recorded Videos</h2>
+                        <p>Recorded lectures in case you miss a class or wish to revise the concepts.</p>
+                    </div>
+
+
+                    <div class="col-6">
+                        <img src="./rtc-clone/icons/internship-supp.svg" class="icon">
+                        <h2>Internship Support</h2>
+                        <p>Free internship support with our Int-Earn platform
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <br><br>
+            <div class="container-courses">
+                <h2 class="text-center fs-1">Our Courses</h2>
+                <br><br><br>
+                <div class="row">
+                    <div class="card" style="width: 20rem; margin-left: 40px;">
+                        <img src="./rtc-clone/image/img-1.png" class="card-img-top" style="margin-top: 10px;">
+                        <div class="card-body">
+                            <h5 class="card-title">C++ Programming</h5>
+                            <p class="card-text">🎯₹2000
+                                ₹499 Only/-
+                                75% OFF</p>
+                            <p class="card-text">🎯Instructor:
+                                Suraj Shende</p>
+                            <p class="card-text">🎯Level: Beginner</p>
+                            <p class="card-text">🎯Rating:(354)</p>
+                            <p class="card-text">🎯Batch Time: 8:00PM to 9:00PM</p>
+                            <p class="card-text">🎯Starts on:7th November 2022
+
+                            </p>
+                            <p class="card-text">🎯Call here to join course: 7821011979</p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning" type="button">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card" style="width: 20rem; margin-left: 40px;">
+                        <img src="./rtc-clone/image/img-2.png" class="card-img-top" style="margin-top: 10px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Internship Cohort Program</h5>
+                            <p class="card-text">🎯₹3000
+                                ₹999 Only/-
+                                67% OFF</p>
+                            <p class="card-text">🎯Instructor:
+                                Suraj Shende</p>
+                            <p class="card-text">
+                                🎯Level: Beginner
+
+                            </p>
+                            <p class="card-text">🎯Rating:(154)</p>
+                            <p class="card-text">🎯Batch Time: 7:00PM to 8:00PM</p>
+                            <p class="card-text">🎯Starts on:15 December 2022</p>
+                            <p class="card-text">🎯Call here to join course: 7821011979</p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning" type="button">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="card" style="width: 20rem; margin-left: 40px;">
+                        <img src="./rtc-clone/image/img-3.png" class="card-img-top" style="margin-top: 10px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Programming</h5>
+                            <p class="card-text">🎯₹2000
+                                ₹499 Only/-
+                                75% OFF</p>
+                            <p class="card-text">🎯Instructor:
+                                Vaibhavi Hole</p>
+                            <p class="card-text">🎯Level: Beginner</p>
+                            <p class="card-text">🎯Rating:(507)</p>
+                            <p class="card-text">🎯Batch Time: 6:00PM to 7:00PM</p>
+                            <p class="card-text">🎯Starts on:1 January 2023</p>
+                            <p class="card-text">🎯Call here to join course: 7821011979</p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-warning" type="button">Enroll Now</button>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="card" style="width: 20rem; margin-left: 40px;">
+                    <img src="./rtc-clone/image/img-1.png" class="card-img-top"style="margin-top: 10px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Data Structures&Algorithms</h5>
+                      <p class="card-text">🎯₹4000
+                        ₹499 Only/- 
+                      88% OFF</p>
+                      <p class="card-text">🎯Instructor:
+                        Suraj Shende</p>
+                      <p class="card-text">🎯Level: Beginner and Intermediate</p>
+                      <p class="card-text">🎯Rating:(263)</p>
+                      <p class="card-text">🎯Batch Time: 8:00PM to 9:00PM</p>
+                      <p class="card-text">🎯Starts on:1 February 2023
+
+                    </p>
+                      <p class="card-text">🎯Call here to join course: 7821011979</p>
+                      <div class="d-grid gap-2">
+                        <button class="btn btn-warning" type="button">Enroll Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="card" style="width: 20rem; margin-left: 40px;" >
+                    <img src="./rtc-clone/image/img-2.png" class="card-img-top" style="margin-top: 10px;">
+                    <div class="card-body">
+                      <h5 class="card-title">C Programming</h5>
+                      <p class="card-text">🎯₹2000
+                        ₹499 Only/- 
+                      75% OFF</p>
+                      <p class="card-text">🎯Instructor:
+                        Suraj Shende</p>
+                      <p class="card-text">
+                        🎯Level: Beginner
+                        
+                        </p>
+                      <p class="card-text">🎯Rating:(407</p>
+                      <p class="card-text">🎯Batch Time: 8:00PM to 9:00PM</p>
+                      <p class="card-text">🎯Starts on:1 February 2023</p>
+                      <p class="card-text">🎯Call here to join course: 7821011979</p>
+                      <div class="d-grid gap-2">
+                        <button class="btn btn-warning" type="button">Enroll Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+
+        </div>
+            
+        <div class="container-team"></div>
+        <div class="container-faq"></div>
+        <div class="container-community"></div>
     </div>
-    <div>
-        <h2>Lecture - 2</h2>
-        <a href="">
-        <button>Go to lec-2 practice</button></a>
-    </div>
-    <div>
-        <h2>Lecture - 3</h2>
-        <a href="./bootstrap-lec-3/index.html">
-        <button>Go to lec-3 practice</button></a>
     </div>
 </body>
+
 </html>
