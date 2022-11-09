@@ -35,19 +35,8 @@
 color: #ff9800;
 
 }
-.links-head::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: rgb(173, 109, 47);
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-.links-head :hover::after{
-    width: 100%;
-    
-
+#head-cen :hover{
+color: #ff9800;
+cursor: pointer;
 }
 
